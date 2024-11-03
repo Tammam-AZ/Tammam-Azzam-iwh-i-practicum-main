@@ -11,7 +11,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 
-const private_app_token = 'pat-eu1-1b6601b6-4629-4fee-8915-cd073031724d'
+const private_app_token = '###'
 
 app.get('/homepage-pets', async (req, res) => {
   const petsEndpoint = 'https://api.hubspot.com/crm/v3/objects/pets?properties=pet_name,pet_type,food_preference';
